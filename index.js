@@ -1,3 +1,5 @@
+require('dotenv').config()
+console.log(process.env.JWT_SECRET)
 const express = require('express')
 const birds = require('./routes/birds')
 const app = express()
